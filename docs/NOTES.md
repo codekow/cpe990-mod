@@ -119,3 +119,8 @@ cd buildroot
 make qemu_mips32r2el_malta_defconfig
 make menuconfig
 ```
+
+## Additional Info
+
+- [OpenWrt - Similar Devices](https://downloads.openwrt.org/releases/23.05.5/targets/ramips/mt7621/)
+- [OpenWrt Forum - 5G issues](https://forum.openwrt.org/t/solved-openwrt-on-mt7621-mt7615n-devices-with-5ghz-problems/107392)

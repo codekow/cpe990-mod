@@ -37,7 +37,3 @@ Filename: [7621-1000M-21A_3.4.3.4-017.trx](firmware/7621-1000M-21A_3.4.3.4-017.t
   - Older Linux Kernel
   - Flash 8M
 - `ssh` (`dropbear`) is available, but old key usage
-
-## Additional Info
-
-- [OpenWrt - Similar Devices](https://downloads.openwrt.org/releases/23.05.5/targets/ramips/mt7621/)
