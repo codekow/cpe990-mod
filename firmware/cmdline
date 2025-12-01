@@ -1,0 +1,1 @@
+console=ttyS0,57600n8 root=/dev/mtdblock4 rootfstype=squashfs

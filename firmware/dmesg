@@ -1,0 +1,237 @@
+root bus resource [io  0x1e160000-0x1e16ffff]
+pci 0000:00:00.0: [0e8d:0801] type 01 class 0x060400
+pci 0000:00:00.0: reg 0x10: [mem 0x00000000-0x7fffffff]
+pci 0000:00:00.0: supports D1
+pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+pci 0000:01:00.0: [14c3:7662] type 00 class 0x028000
+pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x000fffff 64bit]
+pci 0000:01:00.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+pci 0000:01:00.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:00.0: BAR 0: can't assign mem (size 0x80000000)
+pci 0000:00:00.0: BAR 8: assigned [mem 0x60000000-0x600fffff]
+pci 0000:00:00.0: BAR 9: assigned [mem 0x60100000-0x601fffff pref]
+pci 0000:01:00.0: BAR 0: assigned [mem 0x60000000-0x600fffff 64bit]
+pci 0000:01:00.0: BAR 6: assigned [mem 0x60100000-0x6010ffff pref]
+pci 0000:00:00.0: PCI bridge to [bus 01-01]
+pci 0000:00:00.0:   bridge window [mem 0x60000000-0x600fffff]
+pci 0000:00:00.0:   bridge window [mem 0x60100000-0x601fffff pref]
+Switching to clocksource MIPS
+NET: Registered protocol family 2
+IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+TCP: reno registered
+UDP hash table entries: 128 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+PCI: CLS 32 bytes, default 32
+2 CPUs re-calibrate udelay (lpj = 1167360)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+msgmni has been set to 500
+io scheduler noop registered (default)
+Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x1e000c00 (irq = 34) is a 16550A
+Ralink GPIO driver initialized. Number of GPIO: 64, GPIO mode: 000405AC
+loop: module loaded
+MediaTek SPI flash driver, SPI clock: 44MHz
+unrecognized SPI chip ID: 1c (70171c00), please update the SPI driver!
+SPI flash chip: Unknown (00 ffffffff) (8192 Kbytes)
+Creating 8 MTD partitions on "raspi":
+0x000000000000-0x000000030000 : "Bootloader"
+0x000000030000-0x000000040000 : "Config"
+0x000000040000-0x000000050000 : "Factory"
+0x000000050000-0x000000170350 : "Kernel"
+0x000000170350-0x0000007c0000 : "RootFS"
+0x0000007c0000-0x000000800000 : "Storage"
+0x000000050000-0x000000800000 : "Firmware_Stub"
+0x000000000000-0x000000800000 : "ALL"
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Ralink APSoC Ethernet Driver v3.2.4 (raeth)
+raeth: PDMA RX ring 512, QDMA TX pool 1024. Max packet size 1536
+raeth: NAPI & GRO support, weight 64
+raeth: Byte Queue Limits (BQL) support
+PPP generic driver version 2.4.2
+PPP MPPE Compression module registered
+NET: Registered protocol family 24
+PPTP driver version 0.8.5
+mtk-sd: MediaTek SD/MMC Card driver init
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhci-pltfm: SDHCI platform and OF driver helper
+nf_conntrack version 0.5.0 (32768 buckets, 32768 max)
+xt_time: kernel timezone is -0000
+Bridge firewalling registered
+gre: GRE over IPv4 demultiplexor driver
+ip_tables: (C) 2000-2006 Netfilter Core Team
+TCP: cubic registered
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+L2TP core driver, V2.0
+PPPoL2TP kernel driver, V2.0
+8021q: 802.1Q VLAN Support v1.8
+ASUS NVRAM, v0.08. Available space: 61440. Integrity: OK
+VFS: Mounted root (squashfs filesystem) readonly on device 31:4.
+Freeing unused kernel memory: 232k freed
+Algorithmics/MIPS FPU Emulator v1.5
+register rtpci
+PCI: Enabling device 0000:01:00.0 (0000 -> 0002)
+
+
+=== pAd = c0381000, size = 1535912 ===
+
+pAd->CSRBaseAddress =0xc0280000, csr_addr=0xc0280000!
+device_id =0x7662
+==>rlt_wlan_chip_onoff(): OnOff:1, Reset= 1, pAd->WlanFunCtrl:0x0, Reg-WlanFunCtrl=0x20a
+MT76x2 AP Driver version: 3.0.5.0
+====> mt76x2_ePA_per_rate_compensate_init: 5948 is_ePA: 1
+RtmpChipOpsEepromHook::e2p_type=0, inf_Type=5
+RtmpEepromGetDefault::e2p_default=2
+NVM is efuse and the information is too less to bring up the interface
+Force to use Flash mode
+NVM is FLASH mode
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=rai
+WiFi PCI Startup Time: 0.136s
+raeth: HW IP/TCP/UDP checksum RX/TX offload enabled
+raeth: HW VLAN RX offload enabled
+raeth: HW VLAN TX offload enabled
+raeth: HW Scatter/Gather TX offload enabled
+raeth: HW TCP segmentation offload (TSO) enabled
+mtk_esw - hw bridge: LLLLL
+mtk_esw - set broadcast storm control rate as: 10 mbps
+device eth2 entered promiscuous mode
+build time = 20141115060606a
+
+rom patch for E3 IC
+
+platform = ALPS
+hw/sw version = 8a108a10
+patch version = 00010
+FW Version:0.0.00 Build:1
+Build Time:201507311614____
+fw for E3 IC
+RX[0] DESC aef96000 size = 8192
+RX[1] DESC aec24000 size = 512
+cfg_mode=14
+cfg_mode=14
+wmode_band_equal(): Band Not Equal!
+Key1Str is Invalid key length(0) or Type(0)
+Key2Str is Invalid key length(0) or Type(0)
+Key3Str is Invalid key length(0) or Type(0)
+Key4Str is Invalid key length(0) or Type(0)
+APCli_WPAPSK_KEY, key string required 8 ~ 64 characters!!!
+RtmpOSFileOpen(): Error 2 opening /etc/Wireless/iNIC/SingleSKU.dat
+--> Error opening /etc/Wireless/iNIC/SingleSKU.dat
+1. Phy Mode = 49
+get_chl_grp:illegal channel (167)
+get_chl_grp:illegal channel (167)
+get_chl_grp:illegal channel (169)
+get_chl_grp:illegal channel (169)
+get_chl_grp:illegal channel (171)
+get_chl_grp:illegal channel (171)
+get_chl_grp:illegal channel (173)
+get_chl_grp:illegal channel (173)
+Country Region from e2p = ffff
+mt76x2_read_temp_info_from_eeprom:: is_temp_tx_alc=0, temp_tx_alc_enable=0
+mt76x2_read_tx_alc_info_from_eeprom:: is_ePA_mode=1, ePA_type=1
+mt76x2_read_tx_alc_info_from_eeprom:: [5G band] high_temp_slope=255, low_temp_slope=255
+mt76x2_read_tx_alc_info_from_eeprom:: [2G band] high_temp_slope=0, low_temp_slope=0
+mt76x2_read_tx_alc_info_from_eeprom:: [5G band] tc_lower_bound=0, tc_upper_bound=0
+mt76x2_read_tx_alc_info_from_eeprom:: [2G band] tc_lower_bound=0, tc_upper_bound=0
+mt76x2_get_external_lna_gain::LNA type=0x1, BLNAGain=0xffffff8c, ALNAGain0=0xffffff8c, ALNAGain1=0xffffff8c, ALNAGain2=0xffffff8c
+2. Phy Mode = 49
+3. Phy Mode = 49
+andes_pci_fw_init
+0x1300 = 00073200
+AntCfgInit: primary/secondary ant 0/1
+andes_load_cr:cr_type(2)
+ChipStructAssign(): MT76x2 hook !
+RTMPSetPhyMode: channel is out of range, use first channel=36 
+MCS Set = ff ff 00 00 01
+ ch0 bssid=da:ec:5e:d8:d1:09
+ ch36 bssid=48:4e:fc:e4:4f:45
+ ch36 bssid=d8:ec:5e:d8:d1:09
+ ch36 bssid=da:ec:5e:d8:d1:09
+ ch36 bssid=de:ec:5e:8a:73:ef
+ ch40 bssid=40:2b:50:d6:ee:b1
+ ch44 bssid=94:18:65:df:42:22
+ ch44 bssid=60:db:98:48:65:c8
+ ch44 bssid=82:db:98:48:65:c8
+ ch44 bssid=28:80:88:37:97:95
+ ch48 bssid=42:77:46:98:c4:a8
+ ch48 bssid=22:ef:bd:f4:59:44
+ ch48 bssid=48:77:46:98:c4:a8
+ ch149 bssid=8c:86:dd:37:04:77
+ ch149 bssid=ce:86:dd:37:04:77
+ ch149 bssid=40:16:7e:5a:c2:c4
+ ch153 bssid=28:80:88:37:97:94
+ ch157 bssid=60:d2:48:f1:02:e6
+ ch161 bssid=28:94:01:4d:95:ee
+ ch161 bssid=ca:94:01:4d:95:ef
+ ch161 bssid=70:54:25:32:24:0a
+ ch161 bssid=70:54:25:45:48:2c
+ ch161 bssid=72:94:01:4d:76:21
+ ch161 bssid=72:94:01:4d:76:22
+ ch161 bssid=6c:63:9c:cc:66:ff
+=====================================================
+Channel 36 : Dirty = 362, False CCA = 1767, Busy Time = 0, Skip Channel = FALSE
+Channel 40 : Dirty = 336, False CCA = 4567, Busy Time = 0, Skip Channel = FALSE
+Channel 44 : Dirty = 418, False CCA = 2165, Busy Time = 0, Skip Channel = FALSE
+Channel 48 : Dirty = 338, False CCA = 455, Busy Time = 0, Skip Channel = FALSE
+Channel 149 : Dirty = 252, False CCA = 1247, Busy Time = 0, Skip Channel = FALSE
+Channel 153 : Dirty = 198, False CCA = 1473, Busy Time = 0, Skip Channel = FALSE
+Channel 157 : Dirty = 326, False CCA = 627, Busy Time = 0, Skip Channel = FALSE
+Channel 161 : Dirty = 522, False CCA = 492, Busy Time = 0, Skip Channel = FALSE
+Channel 165 : Dirty = 256, False CCA = 346, Busy Time = 0, Skip Channel = TRUE
+=====================================================
+Rule 2 CCA value : Min False CCA value ==> Select Channel 157, min falsecca = 1967 
+mt76x2_bbp_adjust():rf_bw=1, ext_ch=1, PrimCh=157, HT-CentCh=159, VHT-CentCh=157
+APStartUp(): AP Set CentralFreq at 159(Prim=157, HT-CentCh=159, VHT-CentCh=157, BBP_BW=1)
+mt76x2_calibration(channel = 159)
+Main bssid = 68:f0:bc:bd:fa:e0
+mt76x2_reinit_agc_gain:original agc_vga0 = 0x48, agc_vga1 = 0x48
+mt76x2_reinit_agc_gain:updated agc_vga0 = 0x48, agc_vga1 = 0x48
+mt76x2_reinit_hi_lna_gain:original hi_lna0 = 0x33, hi_lna1 = 0x33
+mt76x2_reinit_hi_lna_gain:updated hi_lna0 = 0x33, hi_lna1 = 0x33
+original vga value(chain0) = 48
+original vga value(chain1) = 48
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wdsi
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wdsi
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wdsi
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=wdsi
+get_dev_name_prefix(): dev_idx = 0, dev_name_prefix=apclii
+RTMPDrvOpen(1):Check if PDMA is idle!
+RTMPDrvOpen(2):Check if PDMA is idle!
+WiFi Interface Up Time (rai0): 4.304s
+device rai0 entered promiscuous mode
+update_associated_mac_entry(): Peer's PhyCap=>Mode:VHT, BW:40M
+WpaEAPOLKeyAction: CliIdx == 0xFF  pHeader->Addr2(6A-F0-BC-BC-FC-04) !!!
+Receive EAPoL-Key frame from STA 6A-F0-BC-BC-FC-04 wcid(1)
+WpaEAPOLKeyAction: CliIdx == 0xFF  pHeader->Addr2(6A-F0-BC-BC-FC-04) !!!
+Receive EAPoL-Key frame from STA 6A-F0-BC-BC-FC-04 wcid(1)
+AP SETKEYS DONE - WPA2, AuthMode(7)=WPA2PSK, WepStatus(6)=AES, GroupWepStatus(6)=AES
+
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000002
+br0: port 2(rai0) entered forwarding state
+br0: port 2(rai0) entered forwarding state
+br0: port 1(eth2) entered forwarding state
+br0: port 1(eth2) entered forwarding state
+mtk_esw - software IGMP/MLD snooping: 1
+br0: port 2(rai0) entered forwarding state
+br0: port 1(eth2) entered forwarding state
+update_associated_mac_entry(): Peer's PhyCap=>Mode:VHT, BW:40M
+WpaEAPOLKeyAction: CliIdx == 0xFF  pHeader->Addr2(6A-F0-BC-BC-FC-04) !!!
+Receive EAPoL-Key frame from STA 6A-F0-BC-BC-FC-04 wcid(1)
+WpaEAPOLKeyAction: CliIdx == 0xFF  pHeader->Addr2(6A-F0-BC-BC-FC-04) !!!
+Receive EAPoL-Key frame from STA 6A-F0-BC-BC-FC-04 wcid(1)
+AP SETKEYS DONE - WPA2, AuthMode(7)=WPA2PSK, WepStatus(6)=AES, GroupWepStatus(6)=AES
+
+Rcv Wcid(1) AddBAReq
+Start Seq = 00000002
+mtk_esw - 802.3az EEE: on
+WpaEAPOLKeyAction: CliIdx == 0xFF  pHeader->Addr2(6A-F0-BC-BC-FC-04) !!!
+Receive EAPoL-Key frame from STA 6A-F0-BC-BC-FC-04 wcid(1)
+AP SETKEYS DONE - WPA2, AuthMode(7)=WPA2PSK, WepStatus(6)=AES, GroupWepStatus(6)=AES
